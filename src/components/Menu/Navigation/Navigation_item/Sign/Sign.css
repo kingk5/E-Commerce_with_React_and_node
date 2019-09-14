@@ -1,0 +1,31 @@
+.right{
+  text-align: center;
+  font-weight: bold;
+  cursor:pointer;
+  color:white;
+}
+
+.sign:hover{
+  color: white;
+}
+.sign{
+
+}
+@media (min-width: 500px){
+  .right{
+    position: absolute;
+    float:right;
+    right:20px;
+    top:18px;
+    font-weight: bold;
+    cursor:pointer;
+    color:white;
+  }
+
+  .sign:hover{
+    color: white;
+  }
+  .sign{
+
+  }
+}

@@ -1,0 +1,14 @@
+.head{
+  border-bottom: 2px solid grey;
+  width: 80%;
+  margin-bottom: 3px;
+  text-align: center;
+  margin-top: 40px;
+}
+.head h2{
+  padding-bottom: 20px;
+}
+.flex{
+  display: flex;
+ flex-flow: row wrap;
+}

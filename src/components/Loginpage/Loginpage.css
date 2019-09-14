@@ -1,0 +1,45 @@
+
+.modalcontent{
+    align-items: center;
+    padding: 20px;
+}
+
+.login{
+    width: 100% !important;
+    height: 30px !important;
+    display: block !important;
+    margin: 15px auto;
+    border-radius: 8px;
+    font-size: 20px;
+}
+
+.close{
+    position: absolute;
+    top: 0;
+    right: 14px;
+    font-size: 42px !important;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+.modalcontent form a{
+     display:inline-block;
+  border: 2px solid #ccc;
+  border-radius:5px;
+    width:100%;
+    height:15%;
+    text-align: center;
+    font-size: 22px;
+    color: grey;
+    background-color: black;
+
+    -webkit-transition: color 1s;
+    -moz-transition:    color 1s;
+    -ms-transition:     color 1s;
+    -o-transition:      color 1s;
+    transition:         color 1s;
+}
+.modalcontent a:hover{
+    background-color: black;
+    color: white;
+    cursor:default;
+}

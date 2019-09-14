@@ -1,0 +1,72 @@
+
+.card{
+  height:280px;
+  width:200px;
+  background-color: grey;
+  color: white;
+  margin: 15px 0 15px 20px;
+  text-align: center;
+  box-shadow: 5px 5px black;
+  border-radius: 8px;
+
+}
+
+.img{
+  height:75%;
+  width:200px;
+  margin-bottom: 5px;
+  overflow: hidden;
+  border-radius: 8px;   
+}
+
+.img img{
+  width:100%;
+  height:100%;
+  transition: transform 1s;
+}
+
+.img img:hover{
+  transform: scale(1.1);
+}
+
+.left{
+  position: relative;
+  float: left;
+  left: 10px;
+}
+.right{
+  position: relative;
+  float: right;
+  right: 10px;
+}
+.clr{
+  height:30px;
+  width: auto;
+}
+.button{
+  background-color: grey;
+  border: 1px solid white;
+  color: white;
+  margin: 0 12px;
+  padding: 5px 5px;
+    border-radius: 3px;
+}
+.button:disabled{
+  background-color: grey;
+  border: 1px solid white;
+  color: white;
+  cursor: default;
+}
+
+.button:hover:disabled{
+  background-color: grey;
+  color: white;
+  cursor: not-allowed;
+}
+
+  .span{
+  border: 1px solid white;
+  color: white;
+  padding: 3px 5px;
+  border-radius: 3px;
+}
